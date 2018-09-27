@@ -1,0 +1,97 @@
+{
+  "_from": "jquery.fancytree",
+  "_id": "jquery.fancytree@2.25.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Ne//N16jOX82CbBwHBarC7HmJbo3Ki35pTBExehvNopTTnRxQq3eHw8i7VjFnWO1WIz3RSdol5oNkgkAoiKltg==",
+  "_location": "/jquery.fancytree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery.fancytree",
+    "name": "jquery.fancytree",
+    "escapedName": "jquery.fancytree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.fancytree/-/jquery.fancytree-2.25.0.tgz",
+  "_shasum": "eeed450c2065a3a57ca5ba1bc0a2e85c51339168",
+  "_spec": "jquery.fancytree",
+  "_where": "/Users/jhansen",
+  "author": {
+    "name": "Martin Wendt",
+    "url": "http://careers.stackoverflow.com/martin-wendt"
+  },
+  "bugs": {
+    "url": "https://github.com/mar10/fancytree/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "deprecated": false,
+  "description": "jQuery tree view / tree grid plugin with support for keyboard, inline editing, filtering, checkboxes, drag'n'drop, and lazy loading",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-qunit": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-dev-update": "^2.0.0",
+    "grunt-docco": "^0.5.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-exec": "^1.0.0",
+    "grunt-jsdoc": "^2.1.0",
+    "grunt-saucelabs": "^8.6.3",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-yabs": "^1.1.0",
+    "jsdoc": "~3.5.4",
+    "jshint": "^2.9.4",
+    "qunitjs": "^1.21"
+  },
+  "directories": {},
+  "files": [
+    "dist/"
+  ],
+  "homepage": "https://github.com/mar10/fancytree",
+  "keywords": [
+    "ajax",
+    "ecosystem:jquery",
+    "jquery-plugin",
+    "lazy",
+    "table",
+    "tabletree",
+    "tree",
+    "treegrid"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/mar10/fancytree/master/LICENSE.txt"
+    }
+  ],
+  "main": "./dist/modules/jquery.fancytree.js",
+  "name": "jquery.fancytree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar10/fancytree.git"
+  },
+  "scripts": {
+    "test": "grunt ci --verbose"
+  },
+  "title": "jQuery Fancytree Plugin",
+  "version": "2.25.0"
+}

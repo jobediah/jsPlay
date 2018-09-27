@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id": "Start", "group": 1},
+    {"id": "Location 1a", "group": 2},
+    {"id": "Location 1b", "group": 2},
+    {"id": "Location 2", "group": 3},
+    {"id": "Location 3", "group": 4},
+    {"id": "Location 4", "group": 5},
+    {"id": "Location 5", "group": 6}
+  ],
+  "links": [
+    {"source": "Start", "target": "Location 1a", "value": 1},
+    {"source": "Start", "target": "Location 1b", "value": 1},
+    {"source": "Location 1a", "target": "Location 2", "value": 1},
+    {"source": "Location 1b", "target": "Location 2", "value": 1},
+    {"source": "Location 2", "target": "Location 3", "value": 1},
+    {"source": "Location 3", "target": "Location 2", "value": 1},
+    {"source": "Location 3", "target": "Location 4", "value": 1},
+    {"source": "Location 4", "target": "Location 5", "value": 2}
+  ]
+}
